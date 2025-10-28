@@ -14,3 +14,4 @@ describe("getProxyWalletAddress", () => {
       expect(getProxyWalletAddress(factoryAddress, userAddress)).toEqual(expectedProxyWalletAddress),
   );
 });
+
